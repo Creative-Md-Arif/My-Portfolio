@@ -5,11 +5,9 @@ import { navLinksdata } from "../constanta";
 
 const Navbar = () => {
   return (
-    <div className="w-full py-6 sticky top-0 z-50 bg-bodyColor flex mx-auto justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 border-opacity-10">
+    <div className="w-full py-6 px-8 sticky top-0 z-50 bg-bodyColor flex mx-auto justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 border-opacity-10">
       <div className="">
-        <h1 className="text-white font-logoFont text-5xl font-bold uppercase">
-          Moha<span className=" text-red-600 text-3xl">mmad</span>
-        </h1>
+         <h1 className=' uppercase font-bold font-titleFont text-5xl text-white  flex items-start'>Moha <span className='text-blue-500'>mmad</span></h1>
       </div>
       <div>
         <ul className="flex items-center gap-10">
