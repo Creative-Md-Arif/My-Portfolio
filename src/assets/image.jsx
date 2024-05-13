@@ -6,6 +6,7 @@ import ecommerceOneImg from "./Ecommerce-1.png";
 import ecommerceTwoImg from "./Ecommerce2.png";
 import todoList from "./todo app.png";
 import testimonialOne from "./TestimonialOne.png";
+import contactImg from "./ContactImage.png"
 
 export {
   chattImg,
@@ -15,4 +16,5 @@ export {
   ecommerceOneImg,
   todoList,
   testimonialOne,
+  contactImg,
 };

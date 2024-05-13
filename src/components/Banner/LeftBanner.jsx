@@ -9,7 +9,7 @@ import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { IoLogoFirebase } from "react-icons/io5";
 import { FaFigma } from "react-icons/fa";
-import { Link } from "react-scroll";
+
 
 const LeftBanner = () => {
   // react type writer
@@ -82,26 +82,18 @@ const LeftBanner = () => {
             Best Skil on
           </h2>
           <div className="flex gap-4">
-            <Link href="#">
-              <span className="bannerIcon">
-                <FaReact />
-              </span>
-            </Link>
-            <Link href="#">
-              <span className="bannerIcon">
-                <RiTailwindCssFill />
-              </span>
-            </Link>
-            <Link href="#">
-              <span className="bannerIcon">
-                <IoLogoFirebase />
-              </span>
-            </Link>
-            <Link href="#">
-              <span className="bannerIcon">
-                <FaFigma />
-              </span>
-            </Link>
+            <span className="bannerIcon">
+              <FaReact />
+            </span>
+            <span className="bannerIcon">
+              <RiTailwindCssFill />
+            </span>
+            <span className="bannerIcon">
+              <IoLogoFirebase />
+            </span>
+            <span className="bannerIcon">
+              <FaFigma />
+            </span>
           </div>
         </div>
       </div>
