@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
+import emailjs from '@emailjs/browser';
 
 const ContactRight = () => {
   const [username, setUsername] = useState("");
@@ -18,9 +19,10 @@ const ContactRight = () => {
   };
   //================Email Validation start here ==============
 
-  const handleSend = (e) => {
+  const handleSend = (e) => {  
 
-     
+
+    
     if (username === "") {
       setErrMessage("Username is required");
     } else if (phoneNumber === "") {
@@ -47,7 +49,7 @@ const ContactRight = () => {
   };
 
   return (
-    <div>
+    <div >
       {errMessage && (
         <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#232726] shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">
           {errMessage}
@@ -59,10 +61,10 @@ const ContactRight = () => {
         </p>
       )}
 
-      <div className="w-full flex flex-col gap-6 py-2">
-        <div className="w-full flex gap-10">
+      <div className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5">
+        <div className="w-full flex flex-col lgl:flex-row gap-10">
           {/* name input */}
-          <div className="w-1/2 flex flex-col gap-4">
+          <div className=" w-full lgl:w-1/2 flex flex-col gap-4">
             <p className="text-sm text-gray-400 uppercase tracking-wide">
               YOUR NAME
             </p>
@@ -78,7 +80,7 @@ const ContactRight = () => {
         
           </div>
           {/* phone input */}
-          <div className="w-1/2 flex flex-col gap-4">
+          <div className="w-full  lgl:w-1/2 flex flex-col gap-4">
             <p className="text-sm text-gray-400 uppercase tracking-wide">
               Phone number
             </p>

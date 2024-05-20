@@ -16,10 +16,10 @@ const Features = () => {
       className="w-full py-20 border-b-[1px] border-b-black"
     >
       <Title title="features" des="What I Do" />
-      <div className=" grid grid-cols-3 gap-20">
+      <div className=" grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <Card
           title="Mern Stack Development"
-          des="MERN stack: MongoDB, Express.js, React, Node.js. It's a framework for building full-stack web applications, covering everything from the database to the user interface."
+          des="Master full-stack web development with our in-depth MERN Stack course, covering MongoDB, Express, React, and Node.js."
           icon={<FaNodeJs />}
         />
         <Card
@@ -29,23 +29,23 @@ const Features = () => {
         />
         <Card
           title="App Development"
-          des="App development is creating software for mobile, desktop, or web platforms. It involves designing, coding, testing"
+          des="Transforming ideas into seamless mobile experiences with our expert app development services."
           icon={<GrAppsRounded />}
         />
         <Card
           title="Ux Design"
-          des="UI/UX design enhances digital product usability and aesthetics, integrating UI for visuals and UX for smooth experiences across websites, apps, and platforms."
+          des="Creating intuitive and engaging user experiences that enhance usability and delight users."
           icon={<SiAltiumdesigner />}
         />
         <Card
           title="Graphics design"
-          des="Graphics design: visually communicating messages through typography, imagery, and layout for print, digital, or multimedia."
+          des="Crafting visually compelling designs that elevate your brand and captivate your audience."
           icon={<SiMaterialdesignicons />}
         />
 
         <Card
           title="Hosting Website"
-          des="Hosting a website: Storing and serving its files on a server for online access. It involves managing server resources and ensuring uptime and security."
+          des="Reliable web hosting services with 24/7 support, unlimited bandwidth, and robust security features."
           icon={<SiHostinger />}
         />
       </div>

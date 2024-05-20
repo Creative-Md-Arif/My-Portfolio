@@ -17,8 +17,8 @@ const Contact = () => {
         <Title title="CONTACT" des="Contact With Me" />
       </div>
       <div className="w-full">
-        <div className="w-full h-auto flex justify-between">
-          <div className="w-[35%] h-full bg-gradient-to-t from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col gap-8">
+        <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
+          <div className="w-full  lgl:w-[35%] h-full bg-gradient-to-t from-[#1e2024] to-[#23272b] p-4 lgl:p-8 rounded-lg shadow-shadowOne flex flex-col gap-8">
             <img
               className=" h-72 rounded-lg object-cover bg-slate-800 mb-3"
               src={contactImg}
@@ -45,10 +45,10 @@ const Contact = () => {
                 </span>
               </p>
             </div>
-            {/* find part */}
+            {/* ================= find part ================ */}
             <div className="flex flex-col gap-6">
               <h2 className="text base uppercase font-titleFont">Find And Me</h2>
-                {/* icon part */}
+                {/* ================================ icon part =============================== */}
               <div className="flex gap-4">
                 <a
                   href="https://www.facebook.com/ArifMohammad0"
@@ -72,12 +72,12 @@ const Contact = () => {
                   </span>
                 </a>
               </div>
-              {/* icon end */}
+              {/*  ========================= icon end ================== */}
             </div>
-            {/* find Part end */}
+            {/* ======================== find Part end ============================== */}
           </div>
           {/* div 2 right side */}
-          <div className="w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b]  flex flex-col gap-8 p-8 rounded-lg shadow-shadowOne justify-between  ">
+          <div className="w-full  lgl:w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b]  flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne justify-between  ">
             <ContactRight/>
           </div>
         </div>

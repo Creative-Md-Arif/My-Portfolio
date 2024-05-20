@@ -100,19 +100,20 @@ const Testimonial = () => {
       <div className="flex justify-center items-center text-center">
         <Title title="WHAT CLIENTS SAY" des="Testimonial" />
       </div>
-      {/* slider Start */}
+      {/* ================== slider Start ==============================*/}
       <div className="mx-auto">
         <Slider {...settings}>
-          {/* slider one start */}
+          {/* ======================slider one start ======================*/}
           <div className="w-full">
-            <div className="w-full h-[500px] flex justify-between">
-              <div className="w-[35%] h-full bg-gradient-to-t from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col gap-8 justify-center">
+            <div className="w-full h-auto  flex flex-col lgl:flex-row justify-between">
+              <div className="w-full lgl:w-[35%] h-full bg-gradient-to-t from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col
+               gap-8 justify-center md:justify-start lgl:justify-center">
                 <img
-                  className=" h-72 rounded-lg object-cover bg-slate-800"
+                  className=" h-72 md:h-32 lgl:h-72 rounded-lg object-cover bg-slate-800"
                   src={testimonialOne}
                   alt="testimonialOne"
                 />
-                <div>
+                <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
                     Lorem, ipsum.
                   </p>
@@ -123,14 +124,14 @@ const Testimonial = () => {
                 </div>
               </div>
               {/* div 2 right side */}
-              <div className="w-[60%] h-full flex flex-col justify-between ">
+              <div className="w-full  lgl:w-[60%] h-full flex flex-col justify-between ">
                 <span>
-                  <MdOutlineFormatQuote className=" text-[120px] text-black" />
+                  <MdOutlineFormatQuote className=" text-[70px] lgl:text-[120px] text-black" />
                 </span>
-                <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-8 flex flex-col justify-center gap-8">
-                  <div className="flex justify-between items-center py-6 border-b-2 border-b-gray-900">
+                <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
+                  <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
-                      <h3 className="text-2xl font-medium tracking-wide">
+                      <h3 className="text-xl  lgl:text-2xl font-medium tracking-wide">
                         Lorem, ipsum dolor.
                       </h3>
                       <p className="text-base text-gary-400">N/A</p>
@@ -153,16 +154,17 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
-          {/* slider two*/}
+          {/*===================== slider two ===============================*/}
           <div className="w-full">
-            <div className="w-full h-[500px] flex justify-between">
-              <div className="w-[35%] h-full bg-gradient-to-t from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col gap-8 justify-center">
+            <div className="w-full h-auto  flex flex-col lgl:flex-row justify-between">
+              <div className="w-full lgl:w-[35%] h-full bg-gradient-to-t from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col
+               gap-8 justify-center md:justify-start lgl:justify-center">
                 <img
-                  className=" h-72 rounded-lg object-cover bg-slate-800"
+                  className=" h-72 md:h-32 lgl:h-72 rounded-lg object-cover bg-slate-800"
                   src={testimonialOne}
                   alt="testimonialOne"
                 />
-                <div>
+                <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
                     Lorem, ipsum.
                   </p>
@@ -172,15 +174,15 @@ const Testimonial = () => {
                   </p>
                 </div>
               </div>
-              {/* div 2 right side */}
-              <div className="w-[60%] h-full flex flex-col justify-between ">
+              {/* ====================== div 2 right side ========================= */}
+              <div className="w-full  lgl:w-[60%] h-full flex flex-col justify-between ">
                 <span>
-                  <MdOutlineFormatQuote className=" text-[120px] text-black" />
+                  <MdOutlineFormatQuote className=" text-[70px] lgl:text-[120px] text-black" />
                 </span>
-                <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-8 flex flex-col justify-center gap-8">
-                  <div className="flex justify-between items-center py-6 border-b-2 border-b-gray-900">
+                <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
+                  <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
-                      <h3 className="text-2xl font-medium tracking-wide">
+                      <h3 className="text-xl  lgl:text-2xl font-medium tracking-wide">
                         Lorem, ipsum dolor.
                       </h3>
                       <p className="text-base text-gary-400">N/A</p>
@@ -203,16 +205,17 @@ const Testimonial = () => {
               </div>
             </div>
           </div>
-          {/* slider three  */}
+          {/* =============================== slider three  =============================== */}
           <div className="w-full">
-            <div className="w-full h-[500px] flex justify-between">
-              <div className="w-[35%] h-full bg-gradient-to-t from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col gap-8 justify-center">
+            <div className="w-full h-auto  flex flex-col lgl:flex-row justify-between">
+              <div className="w-full lgl:w-[35%] h-full bg-gradient-to-t from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col
+               gap-8 justify-center md:justify-start lgl:justify-center">
                 <img
-                  className=" h-72 rounded-lg object-cover bg-slate-800"
+                  className=" h-72 md:h-32 lgl:h-72 rounded-lg object-cover bg-slate-800"
                   src={testimonialOne}
                   alt="testimonialOne"
                 />
-                <div>
+                <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
                     Lorem, ipsum.
                   </p>
@@ -223,14 +226,14 @@ const Testimonial = () => {
                 </div>
               </div>
               {/* div 2 right side */}
-              <div className="w-[60%] h-full flex flex-col justify-between ">
+              <div className="w-full  lgl:w-[60%] h-full flex flex-col justify-between ">
                 <span>
-                  <MdOutlineFormatQuote className=" text-[120px] text-black" />
+                  <MdOutlineFormatQuote className=" text-[70px] lgl:text-[120px] text-black" />
                 </span>
-                <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-8 flex flex-col justify-center gap-8">
-                  <div className="flex justify-between items-center py-6 border-b-2 border-b-gray-900">
+                <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
+                  <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
-                      <h3 className="text-2xl font-medium tracking-wide">
+                      <h3 className="text-xl  lgl:text-2xl font-medium tracking-wide">
                         Lorem, ipsum dolor.
                       </h3>
                       <p className="text-base text-gary-400">N/A</p>

@@ -8,16 +8,17 @@ const Achievement = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="w-full flex gap-20"
+      className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
     >
-      {/* education part */}
-      <div className="">
-        <div className="py-12 font-titleFont">
+      {/* ======================== Company Experience ==================== */}
+       <div className="">
+        <div className="py-6 lgl:py-12 font-titleFont">
           <p className="text-sm text-designColor tracking-[4px]">2023 - 2024</p>
-          <h2 className="text-4xl font-bold">Company Experience</h2>
+          <h2 className="text-3xl  md:text-4xl font-bold">Company Experience</h2>
         </div>
         {/* Resume Card */}
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6
+         lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="N/A"
             subTitle="N/A"
@@ -38,15 +39,16 @@ const Achievement = () => {
           />
         </div>
       </div>
-      {/* Experience Part */}
-      <div className="">
-        <div className="py-12 font-titleFont">
-          <p className="text-sm text-designColor tracking-[4px]">2023 - 2024</p>
-          <h2 className="text-4xl font-bold">Job Experience</h2>
+        {/* ======================== Company Experience end ==================== */}
+      {/* ======================job Achievement Part ========================== */}
+       <div className="">
+        <div className=" py-6 lgl:py-12 font-titleFont">
+          <p className="text-sm text-designColor tracking-[4px]">2023-2024</p>
+          <h2 className="text-3xl  md:text-4xl font-bold">Job Achievement</h2>
         </div>
         {/* Resume Card */}
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
+        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <ResumeCard
             title="N/A"
             subTitle="N/A"
             result="Success"
@@ -66,6 +68,7 @@ const Achievement = () => {
           />
         </div>
       </div>
+    {/* ====================== job Achievement Part ========================== */}
     </motion.div>
   );
 };

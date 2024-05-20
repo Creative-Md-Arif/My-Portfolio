@@ -12,10 +12,10 @@ const Card = ({ title, des, icon }) => {
             <span className="text-5xl text-designColor">{icon}</span>
           </div>
           <div className="flex flex-col gap-6">
-            <h2 className="text-2xl font-titleFont font-bold text-gray-300">
+            <h2 className="text-xl lg:text-2xl font-titleFont font-bold text-gray-300">
               {title}
             </h2>
-            <p className=" max-h-max">{des}</p>
+            <p className=" max-h-max lg:text-[18px]">{des}</p>
             <span className="text-2xl text-designColor">
               <HiArrowRight />
             </span>
