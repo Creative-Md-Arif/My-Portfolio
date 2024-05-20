@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="w-full py-28 flex flex-col xl:flex-row items-center gap-10 lgl:gap-0  border-b-[1px] font-titleFont border-b-black"
+      className="w-full py-28 flex flex-col xl:flex-row items-center  gap-10 lgl:0  border-b-[1px]  font-titleFont border-b-black"
     >
       {/* 1nd  div left Banner */}
         <LeftBanner />

@@ -16,8 +16,8 @@ import FooterBottom from "./components/footer/FooterBottom";
 function App() {
   return (
     <div className="w-full h-auto bg-bodyColor text-lightText px-4">
-        <Navbar />
-      <div className="max-w-screen-2xl mx-auto">
+        <Navbar  />
+      <div className="container">
         <Banner />
         <Features />
         <Projects />

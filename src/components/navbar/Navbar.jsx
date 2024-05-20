@@ -12,9 +12,9 @@ const Navbar = () => {
   console.log(showMenu);
 
   return (
-    <div className="w-full py-6 px-2 lg:px-8 sticky top-0 z-50 bg-bodyColor flex mx-auto justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 border-opacity-10">
+    <div className="w-full py-6 sticky top-0 z-50 bg-bodyColor flex mx-auto justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 border-opacity-10">
       <div className="">
-        <h1 className=" uppercase font-bold font-titleFont text-4xl lgl:text-5xl text-white  flex items-start">
+        <h1 className=" uppercase font-bold font-titleFont text-3xl lgl:text-5xl text-white  flex items-start">
           Moha <span className="text-blue-500">mmad</span>
         </h1>
       </div>
@@ -40,12 +40,12 @@ const Navbar = () => {
         </ul>
         <span
           onClick={() => setShowMenu(!showMenu)}
-          className="text-xl lg:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-designColor cursor-pointer"
+          className="text-xl lg:hidden bg-black w-16 h-10 inline-flex items-center justify-center rounded-full text-designColor cursor-pointer"
         >
           <FiMenu />
         </span>
         {showMenu && (
-          <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
+          <div className="w-[90%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
                 <h1 className=" uppercase font-bold font-titleFont text-2xl  text-white  flex items-start">

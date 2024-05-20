@@ -8,9 +8,11 @@ import { FaFacebookF, FaGithub, FaLinkedin } from 'react-icons/fa6'
 
 const Footer = () => {
   return (
-    <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2  lgl:grid-cols-4 gap-20 ">
+    <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2  lgl:grid-cols-4 gap-20 xl:gap-[120px] ">
     <div className='w-full h-full flex flex-col gap-8'>
-        <h1 className=' uppercase font-bold font-titleFont text-5xl text-white  flex items-start'>Moha <span className='text-blue-500'>mmad</span></h1>
+    <h1 className=" uppercase font-bold font-titleFont text-[40px]  text-white  flex items-start">
+          Moha <span className="text-blue-500">mmad</span>
+        </h1>
         <div>
           <div className="flex gap-8">
             <a href="https://www.facebook.com/ArifMohammad0" target="_blank">

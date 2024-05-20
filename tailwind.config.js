@@ -16,6 +16,7 @@ export default {
       lg:"960px",
       lgl:"1024px",
       xl: "1280px",
+      xxl:"1320px",
 
     },
 
@@ -34,6 +35,9 @@ export default {
       shadowOne: "10px 10px 19px #1c1e22, -10px -10px 19px #262a2e",
     },
      
+    },
+    container: {
+      center: true,
     },
   },
   plugins: [],

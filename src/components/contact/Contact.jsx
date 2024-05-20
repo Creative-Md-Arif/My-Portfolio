@@ -37,10 +37,10 @@ const Contact = () => {
               <p className="text-base text-gray-400 flex items-center gap-2">
                 Phone: <span className="text-lightText">01797475538</span>
               </p>
-              <p className="text-base text-gray-400 flex items-center gap-2">
+              <p className="text-base  text-gray-400 flex items-center flex-wrap gap-1">
                 {" "}
                 Email: {""}
-                <span className="text-lightText">
+                <span className="text-lightText ">
                   mohammadarif.ma02@gmail.com
                 </span>
               </p>
