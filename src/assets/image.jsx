@@ -8,6 +8,7 @@ import todoList from "./todo app.png";
 import testimonialOne from "./TestimonialOne.png";
 import contactImg from "./ContactImage.png"
 import bannerImg from "./bannerImg.png"
+ import arifImg from "./Arif1.png"
 
 export {
   chattImg,
@@ -19,4 +20,5 @@ export {
   testimonialOne,
   contactImg,
   bannerImg,
+  arifImg,
 };
